@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T12:15:22.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="_d18UuR3Q6P7-bDY6Cnn" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T12:32:06.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="adD1UGlU7OpoZcWVpvTl" version="22.1.17" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1688" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1457" dy="1419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="w2HW_jaQUsS6ZM1ElsL6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="w2HW_jaQUsS6ZM1ElsL6-18" target="w2HW_jaQUsS6ZM1ElsL6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w2HW_jaQUsS6ZM1ElsL6-18" value="Vehiculo_transportista" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="w2HW_jaQUsS6ZM1ElsL6-18" value="Id_transporte" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="262.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="w2HW_jaQUsS6ZM1ElsL6-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w2HW_jaQUsS6ZM1ElsL6-19" target="w2HW_jaQUsS6ZM1ElsL6-1" edge="1">
@@ -93,12 +93,6 @@
         </mxCell>
         <mxCell id="w2HW_jaQUsS6ZM1ElsL6-19" value="Dni_transportista" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="312.5" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="w2HW_jaQUsS6ZM1ElsL6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w2HW_jaQUsS6ZM1ElsL6-20" target="w2HW_jaQUsS6ZM1ElsL6-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w2HW_jaQUsS6ZM1ElsL6-20" value="Trayecto_transportista" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="357.5" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="w2HW_jaQUsS6ZM1ElsL6-65" value="Servicio Transporte" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="400" y="420" width="100" height="40" as="geometry" />
@@ -170,6 +164,63 @@
             <Array as="points">
               <mxPoint x="610" y="470" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-2" value="Transporte" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-3" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-3" value="Id_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-7" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-7" value="Marca_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-9" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-9" value="Modelo_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-10" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-10" value="Alto_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-11" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-11" value="Ancho_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-470" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-12" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-12" value="Largo_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-13" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-13" value="PesoLimitante_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5saldL3cY11hV60RaHK-14" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-14" value="Matricula_transporte" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="325" y="-280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5saldL3cY11hV60RaHK-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.682;entryY=1.095;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="w2HW_jaQUsS6ZM1ElsL6-1" target="q5saldL3cY11hV60RaHK-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <mxPoint x="150" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
