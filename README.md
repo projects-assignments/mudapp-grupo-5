@@ -1,5 +1,50 @@
 (https://app.diagrams.net/#Hprojects-assignments%2Fmudapp-grupo-5%2Fmain%2FDiagrama%20sin%20t%C3%ADtulo.drawio)
 
+## Proyecto App de mudanzas MUDAPP
+"Nuestro cliente, una start-up innovadora, nos ha encargado el desarrollo de una aplicación revolucionaria destinada a transformar el sector de las mudanzas y el transporte de paquetería.
+Inspirada en el modelo de Uber, la aplicación tiene como objetivo principal facilitar el encuentro entre aquellos que requieren servicios de transporte de bienes y transportistas que cuentan con vehículos específicamente adaptados a esas necesidades. 
+Este proyecto busca proporcionar una solución eficiente y moderna para optimizar el proceso de mudanzas y brindar una experiencia de transporte de paquetería más rápida y conveniente para todos los usuarios involucrados."
+
+## PROTOTIPO DE DIGRAMA ENTIDAD-RELACIÓN
+[link DIAGRAMA ENTIDAD-RELACION](https://app.diagrams.net/#Hprojects-assignments%2Fmudapp-grupo-5%2Fmain%2FDiagrama%20sin%20t%C3%ADtulo.drawio)
+
+Una vez completado el diseño del diagrama de entidades, procedimos a materializar la estructura de la base de datos en MySQL. Se crearon tablas para cada entidad, definiendo cuidadosamente sus atributos y relaciones. Implementamos vinculaciones de tipo 'one-to-many' para establecer conexiones lógicas entre las entidades, garantizando una representación fiel de la interacción entre usuarios, transportistas, servicios, calificaciones y pagos dentro de nuestra aplicación de mudanzas.
+
+
+## EER DIAGRAM MYSQL 
+
+<a href="https://ibb.co/LCs4r3S"><img src="https://i.ibb.co/0fzPKxq/mudapp-diagram-sql.png" alt="mudapp-diagram-sql" border="0"></a>
+
+[LINK DIAGRAMA MYSQL](https://github.com/projects-assignments/mudapp-grupo-5/blob/main/mudappFinalFinal.sql)
+
+## PRESENTACIÓN PARA CLIENTE:
+
+[LINK PRESENTACIÓN CANVA](https://www.canva.com/design/DAF5_793lvA/UERLepFqQju73PzsFOrAwA/edit?utm_content=DAF5_793lvA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<a href="https://ibb.co/bJs8NVN"><img src="https://i.ibb.co/rsx15h5/Captura-de-pantalla-45.png" alt="Captura-de-pantalla-45" border="0"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](https://www.gifsanimados.org/data/media/1373/transporte-y-mudanza-imagen-animada-0044.gif)
 
 # MUDAPP: La app de las mudanzas
